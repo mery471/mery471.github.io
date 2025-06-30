@@ -1,0 +1,58 @@
+.parallax {
+    background-image: url('assets/parallax.jpg');  /* imagen de fondo */
+    height: 400px;  /*altura de la espacio donde se muestra la imagen*/
+    width: 100%; /*ancho del contenedor al 100%*/
+    
+    background-attachment: fixed; /*foijamos la imagen para que no realice scorll = fijo*/
+    background-position: center; /*centramos la imagen de fondo*/
+    background-size: cover; /*estira la imagen para cubir el ancho "de ser necesario"*/
+   
+  }
+  .parallax h2{
+    /*parametros para el titulo h2*/
+
+    text-align: center; /*centramos el texto*/
+    padding-top: 80px; /*margen interno superior*/
+    font-size: 50px; /*tamaño del texto*/
+    color: #fff; /*colo del texto*/
+  }
+  .parallax p{
+    /*parametros para el parrafo */
+    font-size: 20px; /*tamaño del texto*/
+    color: #fff; /*color del texto*/
+    margin-left: 150px; /*margen izquierdo exterior*/
+    margin-right: 150px; /*margen derecho exterior*/
+    text-align: center;
+    padding-top: 20px;
+  }
+  .flotar{
+    position:fixed;/*posición fija*/
+    width:60px;/*ancho*/
+    height:60px;/*alto*/
+    bottom:120px;/*distancia del margen inferior*/
+    right:40px;/*distancia del margen derecho*/
+    background-color:#25d366; /*color de fondo*/
+    color:#FFF; /*color de texto*/
+    border-radius:50%;/*convertir en objeto circular*/
+    text-align:center;/*centrar el texto*/
+    font-size:30px;/*tamaño de la fuente*/
+    box-shadow: 2px 2px 3px #999;/*sombra paralela distancia y color*/
+    z-index:100;/*superponer elemento*/
+    padding: 5px; /*margen interno*/
+}
+  .flotarbtn2{
+    position:fixed;/*posición fija*/
+    width:60px;/*ancho*/
+    height:60px;/*alto*/
+    bottom:50px;/*distancia del margen inferior*/
+    right:40px;/*distancia del margen derecho*/
+    background-color:#eb48dd; /*color de fondo*/
+    color:#FFF; /*color de texto*/
+    border-radius:50%;/*convertir en objeto circular*/
+    text-align:center;/*centrar el texto*/
+    font-size:30px;/*tamaño de la fuente*/
+    box-shadow: 2px 2px 3px #999;/*sombra paralela distancia y color*/
+    z-index:100;/*superponer elemento*/
+    padding: 5px; /*margen interno*/
+
+}
